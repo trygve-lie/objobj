@@ -1,0 +1,39 @@
+{
+  "name": "objobj",
+  "version": "1.0.0",
+  "description": "Get and set properties in a deeply nested object structure",
+  "main": "lib/objobj.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "tap test/*.js",
+    "test:coverage": "tap test/*.js --cov",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trygve-lie/objobj.git"
+  },
+  "keywords": [
+    "object",
+    "keys",
+    "key",
+    "variable",
+    "deep object",
+    "nested objects"
+  ],
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trygve-lie/objobj/issues"
+  },
+  "homepage": "https://github.com/trygve-lie/objobj#readme",
+  "devDependencies": {
+    "eslint": "5.7.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "tap": "12.0.1"
+  }
+}
