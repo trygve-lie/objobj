@@ -1,5 +1,7 @@
 # objobj
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/objobj.svg)](https://greenkeeper.io/)
+
 Get and set properties in deeply nested object structures.
 
 ## Installation
