@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Get and set properties in a deeply nested object structure",
   "main": "lib/objobj.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "tap test/*.js",
     "test:coverage": "tap test/*.js --cov",
